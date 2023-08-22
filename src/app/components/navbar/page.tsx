@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import Image from 'next/image'
-import logo from '../../favicon.ico'
+import logo from '../img/Logo.png'
 
 export default function Navbar () {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -17,7 +17,7 @@ export default function Navbar () {
         <a href='/' className='flex items-center hover:transform hover:scale-110 transition duration-150'>
           <Image
             src={logo}
-            className='h-50 mr-3'
+            className='h-50 mr-3 shadow-lg rounded-lg hover:shadow-light-purple'
             alt='Logo'
             width={100}
             height={100}
@@ -55,11 +55,11 @@ export default function Navbar () {
             isMenuOpen ? 'block' : 'hidden'
             } items-center justify-between w-full md:flex md:w-auto md:order-1`}
         >
-          <ul className='flex flex-col p-4 md:p-0 mt-4 font-medium border border-none rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-none'>
+          <ul className='flex flex-col p-4 md:p-0 mt-4 text-base font-sans font-medium border border-none rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-none'>
             <li>
               <a
-                href='/about'
-                className='block py-2 pl-3 pr-4 text-white bg-light-purple rounded md:bg-transparent md:text-light-purple md:p-0 md:dark:text-light-purple hover:transform hover:scale-110 transition duration-150'
+                href='#about'
+                className='block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-light-purple md:p-0 md:dark:hover:text-light-purple dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:transform hover:scale-110 transition duration-150'
                 aria-current='page'
               >
                 About Me
@@ -67,15 +67,15 @@ export default function Navbar () {
             </li>
             <li>
               <a
-                href='/projects'
-                className='block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-light-purple md:p-0 md:dark:hover:text-light-purple dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:transform hover:scale-110 transition duration-150'
+                href='#projects'
+                className='block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-light-purple md:p-0 md:dark:hover:text-light-purple dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:transform hover:scale-110 transition duration-150'
               >
                 Projects
               </a>
             </li>
             <li>
               <a
-                href='/skills'
+                href='#skills'
                 className='block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-light-purple md:p-0 dark:text-white md:dark:hover:light-purple dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:transform hover:scale-110 transition duration-150'
               >
                 Skills
