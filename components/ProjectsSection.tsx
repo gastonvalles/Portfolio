@@ -31,8 +31,8 @@ const projects = [
       "fully responsive Single Page Application (SPA) made with HTML, CSS, and vanilla JavaScript.",
     technologies: "HTML, CSS, JavaScript",
     image: "/old-portfolio.png",
-    github: "https://github.com/gastonvalles/Portfolio",
-    link: "https://gastonvalles-portfolio.vercel.app/",
+    github: "https://github.com/gastonvalles/Old-Portfolio",
+    link: "https://gastonvalles-old-portfolio.vercel.app/",
   },
   {
     name: "Youpet",
