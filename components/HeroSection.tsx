@@ -32,7 +32,7 @@ const HeroSection = () => {
           <button className="transition-all transform cursor-pointer hover:translate-y-1 hover:scale-105">
             <a
               href="/Gaston+Valles+CV-English.pdf"
-              className="text-neutral-100 font-sans font-semibold px-6 py-3  rounded shadow bg-light-purple hover:bg-dark-purple"
+              className="text-white font-semibold px-6 py-3  rounded bg-light-purple hover:bg-dark-purple"
               download=""
             >
               Download CV
