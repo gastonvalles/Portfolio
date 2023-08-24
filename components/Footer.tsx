@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a href="https://github.com/gastonvalles" rel="noreferrer" target="_blank">
             <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-light-purple"
               size={30}
             />
           </a>
@@ -27,7 +27,7 @@ const Footer = () => {
             target="_blank"
           >
             <AiOutlineTwitter
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-light-purple"
               size={30}
             />
           </a>
@@ -38,7 +38,7 @@ const Footer = () => {
             target="_blank"
           >
             <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-light-purple"
               size={30}
             />
           </a>
@@ -48,7 +48,7 @@ const Footer = () => {
             target="_blank"
           >
             <AiOutlineYoutube
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-light-purple"
               size={30}
             />
           </a>

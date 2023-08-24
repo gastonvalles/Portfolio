@@ -22,7 +22,8 @@ const skills = [
   { skill: "Gorm" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Postman" },
+  { skill: "SCRUM Agile Methodology" },
+  { skill: "English C1" },
 ]
 
 const AboutSection = () => {
@@ -65,12 +66,12 @@ const AboutSection = () => {
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
-            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start cursor-pointer">
               {skills.map((item, idx) => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold hover:bg-light-purple hover:text-white"
                   >
                     {item.skill}
                   </p>

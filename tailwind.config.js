@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         'dark-gray': '#0F0F0F',
         'light-gray': '#1B1C1E',
-        'light-purple': '#6D57E0'
+        'light-purple': '#6D57E0',
+        'dark-purple': '#5740dd'
       },
       screens: { sm: '480px', md: '768px', lg: '976px', xl: '1440pd' },
       animation: {

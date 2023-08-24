@@ -29,13 +29,15 @@ const HeroSection = () => {
             </span>
             with a strong backend focus, based in Mendoza, Argentina.
           </p>
-          <a
-            href="/Gaston+Valles+CV-English.pdf"
-            className="text-neutral-100 font-sans font-semibold px-6 py-3 bg-light-purple rounded shadow hover:bg-light-purple cursor-pointer"
-            download=""
-          >
-            Download CV
-          </a>
+          <button className="transition-all transform cursor-pointer hover:translate-y-1 hover:scale-105">
+            <a
+              href="/Gaston+Valles+CV-English.pdf"
+              className="text-neutral-100 font-sans font-semibold px-6 py-3  rounded shadow bg-light-purple hover:bg-dark-purple"
+              download=""
+            >
+              Download CV
+            </a>
+          </button>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">

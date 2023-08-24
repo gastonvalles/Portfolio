@@ -7,8 +7,7 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 const projects = [
   {
     name: "UrbanWest Shoes",
-    description:
-      "Shoes E-commerce project in which i'm currently working.",
+    description: "Shoes E-commerce project in which i'm currently working.",
     technologies:
       "TypeScript, Next.js, Redux, Node.js, NestJs, Sequelize, PostgreSQL, TailwindCSS",
     image: "/UrbanWest.png",
@@ -86,19 +85,19 @@ const ProjectsSection = () => {
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
                       <br />
-                      {project.technologies}
+                      <span className="text-light-purple">{project.technologies}</span>
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
                       <Link href={project.github} target="_blank">
                         <BsGithub
                           size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                          className="hover:-translate-y-1 transition-transform cursor-pointer hover:text-light-purple"
                         />
                       </Link>
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                          className="hover:-translate-y-1 transition-transform cursor-pointer hover:text-light-purple"
                         />
                       </Link>
                     </div>

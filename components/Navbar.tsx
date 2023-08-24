@@ -67,7 +67,7 @@ export default function Navbar() {
                     key={idx}
                     to={item.page}
                     className={
-                      "block lg:inline-block text-neutral-900 hover:text-light-purple font-sanz dark:text-neutral-100 cursor-pointer hover:transform hover:scale-110 transition duration-100"
+                      "block lg:inline-block text-neutral-900 hover:text-light-purple dark:text-neutral-100 cursor-pointer hover:transform hover:scale-110 transition duration-100"
                     }
                     activeClass="active"
                     spy={true}
