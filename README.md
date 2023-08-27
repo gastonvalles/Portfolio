@@ -16,24 +16,27 @@ To get started with this project, follow these steps:
    git clone [repository_url]
 
 2. Navigate to the project directory:
-   
+
+   ```bash
   cd project-directory
 
 3. Install the dependencies:
 
-npm install
-# or
-yarn install
-# or
-pnpm install
+  ```bash
+  npm install
+  # or
+  yarn install
+  # or
+  pnpm install
 
 4. Run the development server:
 
+  ```bash
    npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  # or
+  yarn dev
+  # or
+  pnpm dev
 
 5. Open http://localhost:3000 in your browser to see the result.
 
