@@ -47,10 +47,10 @@ pnpm dev
 ## Project Structure
 The main components of this project are:
 
-pages/: Contains the different pages of the portfolio.
-components/: Houses reusable UI components.
-public/: Contains static assets like images, fonts, etc.
-styles/: Contains global styles and utility classes.
+- pages/: Contains the different pages of the portfolio.
+- components/: Houses reusable UI components.
+- public/: Contains static assets like images, fonts, etc.
+- styles/: Contains global styles and utility classes.
 
 ## Customization
 You can easily customize this portfolio by modifying the pages and components to showcase your own information and projects.
