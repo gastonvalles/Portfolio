@@ -18,16 +18,17 @@ To get started with this project, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-  cd project-directory
+    cd project-directory
 
 3. Install the dependencies:
 
   ```bash
-  npm install
-  # or
-  yarn install
-  # or
-  pnpm install
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+  ```
 
 4. Run the development server:
 
@@ -37,6 +38,7 @@ To get started with this project, follow these steps:
   yarn dev
   # or
   pnpm dev
+  ```
 
 5. Open http://localhost:3000 in your browser to see the result.
 
@@ -61,3 +63,4 @@ Deploy on Vercel
 The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
 
 Check out our Next.js deployment documentation for more details.
+
