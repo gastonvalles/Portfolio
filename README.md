@@ -1,8 +1,8 @@
+# Portfolio - Fully Responsive Next.js Project
+
 <p align="center">
   <img src="/public/Logo.png" alt="Project Logo" />
 </p>
-
-# Portfolio - Fully Responsive Next.js Project
 
 This is a fully responsive portfolio website built using Next.js, TypeScript, and Tailwind CSS for styling.
 
