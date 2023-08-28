@@ -27,7 +27,7 @@ const projects = [
   {
     name: "Old Portfolio",
     description:
-      "fully responsive Single Page Application (SPA) made with HTML, CSS, and vanilla JavaScript.",
+      "Fully responsive Portfolio (SPA) made with HTML, CSS, and vanilla JavaScript.",
     technologies: "HTML, CSS, JavaScript",
     image: "/old-portfolio.png",
     github: "https://github.com/gastonvalles/Old-Portfolio",
