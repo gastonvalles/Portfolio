@@ -1,8 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio - Fully Responsive Next.js Project
+
+<p align="center">
+  <img src="/public/Logo.png" alt="Project Logo" />
+</p>
+
+This is a fully responsive portfolio website built using Next.js, TypeScript, and Tailwind CSS for styling.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine using the following command:
+   
+```bash
+git clone [repository_url]
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd project-directory
+```
+
+3. Install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
@@ -12,11 +42,18 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open http://localhost:3000 in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
+The main components of this project are:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- pages/: Contains the different pages of the portfolio.
+- components/: Houses reusable UI components.
+- public/: Contains static assets like images, fonts, etc.
+- styles/: Contains global styles and utility classes.
+
+## Customization
+You can easily customize this portfolio by modifying the pages and components to showcase your own information and projects.
 
 ## Learn More
 
