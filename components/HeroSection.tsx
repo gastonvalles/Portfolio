@@ -32,7 +32,7 @@ const HeroSection = () => {
           <button className="transition-all transform cursor-pointer hover:translate-y-1 hover:scale-105">
             <a
               href="/Gaston+Valles+CV-English.pdf"
-              className="text-white font-semibold px-6 py-3  rounded bg-light-purple hover:bg-dark-purple"
+              className="text-white font-semibold px-6 py-3  rounded bg-light-purple hover:bg-dark-purple hover:font-semibold hover:text-yellow-400"
               download=""
             >
               Download CV
@@ -51,7 +51,7 @@ const HeroSection = () => {
         >
           <HiArrowDown
             size={35}
-            className="animate-bounce text-white cursor-pointer hover:text-light-purple"
+            className="animate-bounce text-white cursor-pointer hover:text-yellow-400"
           />
         </Link>
       </div>

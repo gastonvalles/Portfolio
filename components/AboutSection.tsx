@@ -1,15 +1,16 @@
 import React from "react"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
+  { skill: "HTML / CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "React" },
   { skill: "Redux" },
+  { skill: "Zustand" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
   { skill: "Bootstrap" },
+  { skill: "Bun" },
   { skill: "Node.js" },
   { skill: "Express" },
   { skill: "NestJs" },
@@ -17,13 +18,17 @@ const skills = [
   { skill: "PostgreSQL" },
   { skill: "Mongoose" },
   { skill: "MongoDB" },
+  { skill: "Redis" },
+  { skill: "Docker" },
   { skill: "Go" },
   { skill: "Gin" },
-  { skill: "Gorm" },
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "SCRUM Agile Methodology" },
-  { skill: "English C1" },
+  { skill: "Leadership" },
+  { skill: "Team Player" },
+  { skill: "Fast Learner" },
+  { skill: "C1 English" },
 ]
 
 const AboutSection = () => {
@@ -41,16 +46,18 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hey! My name is Gaston Valles and I am a{" "}
+              Hello! 👋😁 <br />
+              My name is Gaston Valles and I'm a{" "}
               <span className="font-bold text-light-purple">{"experienced"}</span>,
               <span className="font-bold text-light-purple">{" committed"}</span>, and
               <span className="font-bold text-light-purple">{" enthusiast"}</span> full stack developer based in Mendoza, Argentina.
             </p>
             <br />
             <p>
-              I graduated from the intensive Henry bootcamp in january of 2023 
-              and have been working in the
-              field ever since.
+              I graduated from the intensive 
+              <span className="font-bold text-yellow-400">{" Henry"}</span> bootcamp in January of 2023 
+              and have been looking for a trainee or junior position as a backend 
+              <span className="font-bold text-gray-400">{" (preferable)"}</span>, frontend or fullstack developer.
             </p>
             <br />
             <p>
@@ -71,7 +78,7 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold hover:bg-light-purple hover:text-white"
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-600 rounded font-bold hover:bg-light-purple hover:text-yellow-400 hover:font-bold"
                   >
                     {item.skill}
                   </p>

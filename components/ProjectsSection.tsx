@@ -7,17 +7,16 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 const projects = [
   {
     name: "UrbanWest Shoes",
-    description: "Shoes E-commerce project in which i'm currently working.",
+    description: "Shoes E-commerce project in which I'm currently working.",
     technologies:
       "TypeScript, Next.js, Redux, Node.js, NestJs, Sequelize, PostgreSQL, TailwindCSS",
     image: "/UrbanWest.png",
     github: "https://github.com/griimreaper/e-commerce-tech",
-    link: "https://github.com/griimreaper/e-commerce-tech-server",
   },
   {
     name: "StoryDots E-commerce",
     description:
-      "Challenge to apply to a full stack developer position in StoryDots. It consists of creating an Ecommerce-themed API REST with all CRUD operations for /products and /brands endpoints.",
+      "Challenge to apply to a full stack developer position in StoryDots. It consists of creating an E commerce-themed API REST with all CRUD operations for '/products' and '/brands' endpoints.",
     technologies:
       "React, Redux, Node.js, Express, Sequelize, PostgreSQL, CSS Modules",
     image: "/storydots.png",
@@ -27,7 +26,7 @@ const projects = [
   {
     name: "Old Portfolio",
     description:
-      "Fully responsive Portfolio (SPA) made with HTML, CSS, and vanilla JavaScript.",
+      "My first portfolio. It's a fully responsive Single Page Application that shows my way in programming",
     technologies: "HTML, CSS, JavaScript",
     image: "/old-portfolio.png",
     github: "https://github.com/gastonvalles/Old-Portfolio",
@@ -36,12 +35,11 @@ const projects = [
   {
     name: "Youpet",
     description:
-      "Website of shifts for your pet with highly trained professionals.",
+      "Website of shifts for your pet with highly trained professionals. You can view al the services in the landing page, select a professional and make an appointment for your pet",
     technologies:
       "React, Redux, Node.js, Express, Sequelize, PostgreSQL, Bootstrap",
     image: "/Youpet.jpg",
     github: "https://github.com/gastonvalles/Youpet",
-    link: "https://youpet.vercel.com",
   },
   {
     name: "Individual Project: TravelApp",
@@ -51,7 +49,6 @@ const projects = [
       "React, Redux, Node.js, Express, Sequelize, PostgreSQL, CSS Modules",
     image: "/PI.jpg",
     github: "https://github.com/gastonvalles/Countries-PI",
-    link: "https://travelapp-countries-pi.vercel.app/",
   },
 ];
 
@@ -70,36 +67,41 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={project.link}>
-                      <Image
-                        src={project.image}
-                        alt=""
-                        width={1000}
-                        height={1000}
-                        className="rounded-xl shadow-xl hover:opacity-70"
-                      />
-                    </Link>
+                    <Image
+                      src={project.image}
+                      alt=""
+                      width={1000}
+                      height={1000}
+                      className="rounded-xl shadow-xl hover:opacity-70"
+                    />
+                    {project.link && (
+                      <Link href={project.link} target="_blank" />
+                    )}
                   </div>
                   <div className="mt-8 md:w-1/2">
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
                       <br />
-                      <span className="text-light-purple">{project.technologies}</span>
+                      <span className="text-light-purple">
+                        {project.technologies}
+                      </span>
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
                       <Link href={project.github} target="_blank">
                         <BsGithub
                           size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer hover:text-light-purple"
+                          className="hover:-translate-y-1 transition-transform cursor-pointer hover:text-yellow-400"
                         />
                       </Link>
-                      <Link href={project.link} target="_blank">
-                        <BsArrowUpRightSquare
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer hover:text-light-purple"
-                        />
-                      </Link>
+                      {project.link && (
+                        <Link href={project.link} target="_blank">
+                          <BsArrowUpRightSquare
+                            size={30}
+                            className="hover:-translate-y-1 transition-transform cursor-pointer hover:text-yellow-400"
+                          />
+                        </Link>
+                      )}
                     </div>
                   </div>
                 </div>
