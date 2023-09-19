@@ -11,7 +11,9 @@ module.exports = {
         'dark-gray': '#0F0F0F',
         'light-gray': '#1B1C1E',
         'light-purple': '#6D57E0',
-        'dark-purple': '#5740dd'
+        'dark-purple': '#5740dd',
+        'blue': '#0B66C2',
+        'light-blue': '#1B8CD8'
       },
       screens: { sm: '480px', md: '768px', lg: '976px', xl: '1440pd' },
       animation: {

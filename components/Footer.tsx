@@ -1,10 +1,10 @@
-import React from "react"
+import React from "react";
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
   AiOutlineLinkedin,
   AiOutlineYoutube,
-} from "react-icons/ai"
+} from "react-icons/ai";
+import { RiTwitterXFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -15,9 +15,23 @@ const Footer = () => {
           © 2023 Gaston Valles<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/gastonvalles" rel="noreferrer" target="_blank">
+          <a
+            href="https://github.com/gastonvalles"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineLinkedin
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-blue"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCl4CmiFAnizj0Uf4p43zeAA"
+            rel="noreferrer"
+            target="_blank"
+          >
             <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-yellow-400"
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-green-500"
               size={30}
             />
           </a>
@@ -26,24 +40,14 @@ const Footer = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineTwitter
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-light-purple"
+            <RiTwitterXFill
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-light-blue"
               size={30}
             />
           </a>
 
           <a
             href="https://www.linkedin.com/in/gastonvalles/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-blue-600"
-              size={30}
-            />
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCl4CmiFAnizj0Uf4p43zeAA"
             rel="noreferrer"
             target="_blank"
           >
@@ -55,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

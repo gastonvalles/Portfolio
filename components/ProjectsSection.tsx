@@ -57,7 +57,7 @@ const ProjectsSection = () => {
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl text-white">
         Projects
-        <hr className="w-6 h-1 mx-auto my-4 bg-light-purple border-0 rounded"></hr>
+        <hr className="w-6 h-1 mx-auto my-4 bg-yellow-400 border-0 rounded"></hr>
       </h1>
 
       <div className="flex flex-col space-y-28 text-white">
@@ -91,7 +91,7 @@ const ProjectsSection = () => {
                       <Link href={project.github} target="_blank">
                         <BsGithub
                           size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer hover:text-yellow-400"
+                          className="hover:-translate-y-1 transition-transform cursor-pointer hover:text-green-500"
                         />
                       </Link>
                       {project.link && (

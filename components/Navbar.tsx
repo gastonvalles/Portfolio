@@ -38,7 +38,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Image
               src={logo}
-              className="h-50 mr-3"
+              className="h-50 mr-3 "
               alt="Logo"
               width={60}
               height={60}
@@ -60,14 +60,14 @@ export default function Navbar() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
                     key={idx}
                     to={item.page}
                     className={
-                      "block lg:inline-block text-neutral-900 hover:text-light-purple dark:text-neutral-100 cursor-pointer hover:transform hover:scale-110 transition duration-100"
+                      "block lg:inline-bloc text-gray-300 hover:text-white cursor-pointer hover:transform hover:scale-110 transition duration-100"
                     }
                     activeClass="active"
                     spy={true}

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const skills = [
   { skill: "HTML / CSS" },
@@ -29,7 +29,7 @@ const skills = [
   { skill: "Team Player" },
   { skill: "Fast Learner" },
   { skill: "C1 English" },
-]
+];
 
 const AboutSection = () => {
   return (
@@ -46,29 +46,55 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hello! 👋😁 <br />
-              My name is Gaston Valles and I'm a{" "}
-              <span className="font-bold text-light-purple">{"experienced"}</span>,
-              <span className="font-bold text-light-purple">{" committed"}</span>, and
-              <span className="font-bold text-light-purple">{" enthusiast"}</span> full stack developer based in Mendoza, Argentina.
+              My name is{" "}
+              <span className="font-bold text-white">{"Gaston Valles"}</span>, a{" "}
+              <span className="font-bold text-green-500 hover:text-green-400 cursor-pointer">
+                {"experienced"}
+              </span>
+              ,
+              <span className="font-bold text-green-500 hover:text-green-400 cursor-pointer">
+                {" collaborative"}
+              </span>{" "}
+              and
+              <span className="font-bold text-green-500 hover:text-green-400 cursor-pointer">
+                {" analytical"}
+              </span>{" "}
+              full stack developer with a strong
+              <span className="font-bold text-light-purple hover:text-yellow-400 cursor-pointer">
+                {" backend"}
+              </span>{" "}
+              focus.
             </p>
             <br />
             <p>
-              I graduated from the intensive 
-              <span className="font-bold text-yellow-400">{" Henry"}</span> bootcamp in January of 2023 
-              and have been looking for a trainee or junior position as a backend 
-              <span className="font-bold text-gray-400">{" (preferable)"}</span>, frontend or fullstack developer.
+              Graduated from the intensive
+              <span className="font-bold text-yellow-400 hover:text-yellow-300 cursor-pointer">
+                {" Henry Bootcamp"}
+              </span>{" "}
+              in January of 2023 and working in the field since then. <br />
+              Currently looking for new opportunities as a backend
+              <span className="font-bold text-gray-500 hover:text-gray-400 cursor-pointer">
+                {" (preferable)"}
+              </span>
+              , frontend or fullstack developer position.
             </p>
             <br />
             <p>
               I believe that you should{" "}
-              <span className="font-bold text-light-purple">
-                never stop growing
+              <span className="font-bold text-red-600 hover:text-red-500 cursor-pointer">
+                never stop
               </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 😁
+              growing and that's why I'm constantly developing new projects,
+              learning new technologies in addition to training my current
+              skills to improve my professional value.
+            </p>
+            <br />
+            <p>
+              Let's do{" "}
+              <span className="font-bold text-green-500 hover:text-yellow-400 cursor-pointer">
+                {" amazing "}
+              </span>
+              things together! 😁
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -78,18 +104,18 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-600 rounded font-bold hover:bg-light-purple hover:text-yellow-400 hover:font-bold"
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-600 rounded font-bold hover:bg-green-500 hover:text-white hover:font-bold"
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
