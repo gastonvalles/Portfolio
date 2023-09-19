@@ -3,6 +3,7 @@ import {
   AiOutlineGithub,
   AiOutlineLinkedin,
   AiOutlineYoutube,
+  AiOutlineInstagram
 } from "react-icons/ai";
 import { RiTwitterXFill } from "react-icons/ri";
 
@@ -16,7 +17,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
-            href="https://github.com/gastonvalles"
+            href="https://www.linkedin.com/in/gastonvalles/"
             rel="noreferrer"
             target="_blank"
           >
@@ -26,7 +27,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://www.youtube.com/channel/UCl4CmiFAnizj0Uf4p43zeAA"
+            href="https://github.com/gastonvalles"
             rel="noreferrer"
             target="_blank"
           >
@@ -41,13 +42,22 @@ const Footer = () => {
             target="_blank"
           >
             <RiTwitterXFill
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-light-blue"
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-yellow-500"
               size={30}
             />
           </a>
-
           <a
-            href="https://www.linkedin.com/in/gastonvalles/"
+            href="https://www.instagram.com/gaston_valles/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineInstagram
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100 hover:text-pink"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCl4CmiFAnizj0Uf4p43zeAA"
             rel="noreferrer"
             target="_blank"
           >

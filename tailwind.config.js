@@ -13,7 +13,8 @@ module.exports = {
         'light-purple': '#6D57E0',
         'dark-purple': '#5740dd',
         'blue': '#0B66C2',
-        'light-blue': '#1B8CD8'
+        'light-blue': '#1B8CD8',
+        'pink': '#CF3B9D'
       },
       screens: { sm: '480px', md: '768px', lg: '976px', xl: '1440pd' },
       animation: {
