@@ -6,6 +6,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "Legendaryum Collectibles",
+    description: "Backend app designed to create a collecting experience in a metaverse. Users can connect through socket and explore different 3D 'rooms' containing 'coins' collectibles.",
+    technologies:
+      "TypeScript, Node.js, Express, Redis, Socket.io, HTML, TailwindCSS",
+    image: "/Legendaryum.png",
+    github: "https://github.com/gastonvalles/Legendaryum-Collectibles",
+  },
+  {
     name: "UrbanWest Shoes",
     description: "Shoes E-commerce project in which I'm currently working.",
     technologies:
