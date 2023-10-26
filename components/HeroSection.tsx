@@ -30,7 +30,7 @@ const HeroSection = () => {
           </p>
           <button className="transition-all transform cursor-pointer hover:translate-y-1 hover:scale-105">
             <a
-              href="/Gaston+Valles+CV-English.pdf"
+              href="/Gaston Valles CV-English.pdf"
               className="text-gray-100 font-semibold px-6 py-3  rounded bg-light-purple hover:bg-green-500 hover:font-semibold hover:text-white"
               download=""
             >
