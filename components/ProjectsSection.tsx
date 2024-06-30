@@ -6,8 +6,17 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "Block Magic Hackathon: P2PBetting",
+    description: "Sitio de apuestas P2P de Esports y deportes donde usuarios pueden conectar sus billeteras de Crypto para apostar con otro usuario. Proyecto de Web3 para competir en una Chainlink Hackathon.",
+    technologies: "React, TypeScript, Solidity, Ruby, Python, TailwindCSS",
+    image: "/P2PBetting.png",
+    github: "https://github.com/martinllobell/dapp",
+    link: "https://martinllobell.github.io/dapp/",
+  },
+  {
     name: "Legendaryum Collectibles",
-    description: "Backend app designed to create a collecting experience in a metaverse. Users can connect through socket and explore different 3D 'rooms' containing 'coins' collectibles.",
+    description:
+      "Backend app designed to create a collecting experience in a metaverse. Users can connect through socket and explore different 3D 'rooms' containing 'coins' collectibles.",
     technologies:
       "TypeScript, Node.js, Express, Redis, Socket.io, HTML, TailwindCSS",
     image: "/Legendaryum.png",
